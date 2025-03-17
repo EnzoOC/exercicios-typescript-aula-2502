@@ -2,7 +2,7 @@
 let mensagem: string = "Olá, TypeScript!";
 console.log(mensagem);
 
-console.log("\n"); // Espaço entre os exercícios
+console.log("\n"); 
 
 // Exercício 1 - Tipagem e Arrays
 console.log("Exercício 1 - Soma de valores em um array:");
@@ -17,9 +17,9 @@ console.log("Exercício 2 - Mensagem personalizada:");
 function mensagemPersonalizada(nome: string): string {
   return `Olá, ${nome}! Bem-vindo ao TypeScript.`;
 }
-console.log(mensagemPersonalizada("Enzo Cunha")); // Alterado para "Enzo Cunha"
+console.log(mensagemPersonalizada("Enzo Cunha")); 
 
-console.log("\n"); // Espaço entre os exercícios
+console.log("\n"); 
 
 // Exercício 3 - Classe e Instância
 console.log("Exercício 3 - Classe Carro e método detalhes:");
@@ -33,5 +33,5 @@ class Carro {
     return `${this.marca} ${this.modelo}, Ano: ${this.ano}`;
   }
 }
-const carro1 = new Carro("Toyota", "Corolla", 2024); // Alterado para "Toyota", "Corolla", 2024
+const carro1 = new Carro("Toyota", "Corolla", 2024); 
 console.log(carro1.detalhes());
