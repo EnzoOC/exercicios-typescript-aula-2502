@@ -1,0 +1,15 @@
+{
+  "name": "checkpoint1-typescript",
+  "version": "1.0.0",
+  "description": "Checkpoint 1 – Entrega das Atividades de TypeScript",
+  "main": "exemplo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
